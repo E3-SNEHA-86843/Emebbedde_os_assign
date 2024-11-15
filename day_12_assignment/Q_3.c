@@ -10,7 +10,7 @@ int main() {
         _exit(1);
     }
     while(1){
-    	write(arr[1], buf, sizeof(buf));
+    	write(arr[1], buf, 1);
     	count++;
     	printf("count: %d\n", count);
     }
